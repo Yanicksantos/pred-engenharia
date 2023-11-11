@@ -12,7 +12,7 @@
                           variant="outlined" 
                           width="100%"
                           to="/sobre"
-                          size="small"
+                          
                           >
                             SOBRE NÓS
                           </v-btn>
@@ -30,7 +30,7 @@
                              width="100%"
                              v-bind="menu"
                              append-icon="mdi-chevron-down"
-                             size="small"
+                             
                              >
                                NOSSOS SERVIÇOS
                              </v-btn>
@@ -63,7 +63,7 @@
                           variant="outlined" 
                           width="100%"
                           href="https://suporte.s3i.com.br/blog/"
-                          size="small"
+                         
                           >
                               BLOG
                           </v-btn>

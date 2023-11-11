@@ -1,8 +1,8 @@
 <template>
        <div class=" h-100" 
-        style="background-image: url('/img/historias/1.jpeg'); background-size: cover; background-position: center center; background-attachment: fixed;"
+        style="background-image: url('/img/historias/1.jpeg'); background-size: cover; background-position: center right; background-attachment: fixed;"
         >
-        <div class=" h-100  d-sm-none" style="overflow: hidden; background-color: rgba(26,35,126, .95);">
+        <div class=" h-100  d-sm-none" style="overflow: hidden; background-image: linear-gradient(to top,  rgba(26,35,126, .4), rgba(26,35,126, .8), rgba(26,35,126, 1));">
             <v-container>
                 <div class=" mt-4 mb-2 ml-2  text-h6" style="color: #BDBDBD;">
                     <strong class="font-weight-bold text-white"  >Um pouco da</strong>  nossa caminhada
