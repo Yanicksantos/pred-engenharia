@@ -12,7 +12,7 @@
 
   .template,
 .page-leave-active {
-  transition: all 0.6s;
+  transition: all 0.5s;
 }
 .page-enter-from,
 .page-leave-to {
