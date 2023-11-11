@@ -16,6 +16,7 @@
                 v-for="servico in services"
                 flat
                 >
+                <nuxt-link :to="servico.to" class="text-decoration-none">
                 <v-img
                 class="align-end text-white"
                     height="200"
@@ -29,7 +30,7 @@
                 </v-img>
 
                 <v-card-subtitle 
-                class="mx-1 my-3" 
+                class="mx-1 my-3 text-black" 
                 v-if="servico.subtile"
                 v-for="subtitle in servico.subtile"
                 >
@@ -42,6 +43,7 @@
                </v-card-subtitle>
                 <v-card-text
                 v-else
+                class="text-black"
                 >
                   {{ servico.content }}
                 </v-card-text>
@@ -56,6 +58,7 @@
                         :to=servico.to
                         >ler mais...</v-btn>
                     </v-card-actions>
+                  </nuxt-link>
                 </v-card>
 
 
