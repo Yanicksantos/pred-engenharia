@@ -1,6 +1,6 @@
 <template>
        <div class=" h-100" 
-        style="background-image: url('/img/historias/1.jpeg'); background-size: cover; background-position: center center;"
+        style="background-image: url('/img/historias/1.jpeg'); background-size: cover; background-position: center center; background-attachment: fixed;"
         >
         <div class=" h-100  d-sm-none" style="overflow: hidden; background-color: rgba(26,35,126, .95);">
             <v-container>
@@ -32,7 +32,7 @@
         </div>
 
          <!-- historia desktop --->
-         <div  class="py-4  h-100 d-none d-sm-block" style="overflow: hidden; background-color: rgba(26,35,126, .95);">
+         <div  class="py-4  h-100 d-none d-sm-block" style="overflow: hidden;  background-image: linear-gradient(to top,  rgba(26,35,126, .4), rgba(26,35,126, .8), rgba(26,35,126, 1));">
             <v-container>
                 <div class=" mt-4 mb-2 ml-2  text-h5" style="color: #BDBDBD;">
                 <strong class="font-weight-bold text-white"  >Um pouco da</strong>  nossa caminhada
@@ -42,16 +42,16 @@
                 class="mb-8 mx-2"></div>
                 <v-carousel  
                     hide-delimiter-background
-                    cycle
-                    height="350"
-                    show-arrows="hover"
+                    
+                    height="500"
+                    
                     class="rounded-xl mb-4 "
                     >
                     <v-carousel-item
                     v-for="(src2, i) in scrs2"
                     :key="i"
                     :src=src2
-                    cover
+                  
                     ></v-carousel-item>
                 </v-carousel>
             </v-container>
